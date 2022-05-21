@@ -1,13 +1,13 @@
 const express = require('express')
 //const path = require('path')
 
-// const db = require('.database')
- const routes = require('./routes/routes')
+const db = require('./database/db')
+const routes = require('./routes/routes')
 
 const app = express()
 
 
-//db.connect()
+db.connect()
 
 
 
